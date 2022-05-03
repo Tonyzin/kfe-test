@@ -1,0 +1,22 @@
+{
+    "name": "danielspinard/mvc",
+    "description": "a ready-made MVC structure",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Monteiro",
+            "homepage": "https://github.com/danielspinard"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    },
+    "require": {
+        "coffeecode/router": "^1.0",
+        "eftec/bladeonehtml": "1.8.*"
+    }
+}
